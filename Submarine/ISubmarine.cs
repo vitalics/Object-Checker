@@ -1,8 +1,6 @@
-using App.Common;
-
 namespace App.Submarine
 {
-    interface ISubmarine : IPrintable
+    interface ISubmarine
     {
         int EmployeeCount { get; }
         int DaysUnderWater { get; }

@@ -18,12 +18,12 @@ namespace App.Submarine
             this.EmployeeCount = EmployeeCount;
         }
 
-        public void Print()
+        public override string ToString()
         {
-            helper.WriteLine($@"Submarine info:
+            return $@"Submarine info:
                 Employee count: {EmployeeCount}
                 Days under water: {DaysUnderWater}
-            ");
+            ";
         }
     }
 }

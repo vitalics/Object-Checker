@@ -22,7 +22,7 @@ namespace App
             int days = cli.GetDaysUnderWater();
             int employeeCount = cli.GetEmployeeCount();
             var submarine = builder.DaysUnderWater(days).EmployeeCount(employeeCount).build();
-            submarine.Print();
+            cli.helper.WriteLine(submarine.ToString());
         }
     }
 }
