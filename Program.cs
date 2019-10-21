@@ -13,6 +13,8 @@ namespace App
 
             bool isStart = cli.Start();
 
+            System.Console.WriteLine("Hello");
+
             while (!isStart)
             {
                 cli.helper.Error("Your answer not contains 'start'. Try again");
